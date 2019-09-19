@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Rectangle
+//  Portfolio
 //
 //  Created by Huynh, Kaitlyn on 9/16/19.
 //  Copyright © 2019 Huynh, Kaitlyn. All rights reserved.
