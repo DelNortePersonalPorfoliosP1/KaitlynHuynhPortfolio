@@ -11,5 +11,5 @@
 
 #include <stdio.h>
 #include <math.h>
-void seconds();
+int operator();
 #endif /* time_h */

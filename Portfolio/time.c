@@ -8,18 +8,18 @@
 
 #include "time.h"
 
-void seconds() {
-    double seconds=0, minutes=0, hours=0, days=0;
-    printf("ask for seconds");
-    scanf("%lf", &seconds);
-    minutes=seconds/60;
-    puts("minutes");
-    printf("%lf\n", minutes);
-    hours=seconds/3600;
-    puts("hours");
-    printf("%lf\n", hours);
-    days=(seconds/3600)/24;
-    puts("days");
-    printf("%lf\n", days);
+int operator(void) {
+    int count ;
+    int Days, Hours, Remainder, Minutes, Seconds = 0;
+    printf("Input a number of seconds\n");
+    scanf("%d", &count) ;
+    Days = count/86400;
+    Remainder = count % 86400 ;
+    Hours = Remainder/3600 ;
+    Remainder = count % 3600;
+    Minutes = Remainder/60;
+    Seconds = Remainder%60;
+    printf("That is %d days, %d hours, %d minutes and %d seconds\n", Days, Hours, Minutes, Seconds) ;
+    return 0;
     
 }
