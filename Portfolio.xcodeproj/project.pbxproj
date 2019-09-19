@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D0984AA23328AFD0042B6F8 /* pythagoras.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D0984A923328AFC0042B6F8 /* pythagoras.c */; };
+		6D150F962333D58C00565985 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D150F952333D58C00565985 /* time.c */; };
 		6D1996CB232FE25000655455 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D1996CA232FE25000655455 /* main.c */; };
 		6D1996D3232FE2B000655455 /* rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D1996D2232FE2B000655455 /* rectangle.c */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		6D0984A823328AFC0042B6F8 /* pythagoras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pythagoras.h; sourceTree = "<group>"; };
 		6D0984A923328AFC0042B6F8 /* pythagoras.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pythagoras.c; sourceTree = "<group>"; };
+		6D150F942333D58C00565985 /* time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		6D150F952333D58C00565985 /* time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
 		6D1996C7232FE25000655455 /* Portfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Portfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1996CA232FE25000655455 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6D1996D1232FE2B000655455 /* rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				6D0984A823328AFC0042B6F8 /* pythagoras.h */,
 				6D1996D1232FE2B000655455 /* rectangle.h */,
 				6D1996D2232FE2B000655455 /* rectangle.c */,
+				6D150F942333D58C00565985 /* time.h */,
+				6D150F952333D58C00565985 /* time.c */,
 			);
 			path = Portfolio;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			files = (
 				6D0984AA23328AFD0042B6F8 /* pythagoras.c in Sources */,
 				6D1996CB232FE25000655455 /* main.c in Sources */,
+				6D150F962333D58C00565985 /* time.c in Sources */,
 				6D1996D3232FE2B000655455 /* rectangle.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
