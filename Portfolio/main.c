@@ -36,6 +36,10 @@ int main(void) {
         
         if (lab == 4){
             return 0;
+            
+        }
+        if (lab > 4){
+            return 0;
         }
     }
     return 0;
