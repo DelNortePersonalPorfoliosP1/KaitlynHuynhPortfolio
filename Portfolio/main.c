@@ -16,8 +16,6 @@
 int main(void) {
     int lab;
     int a = 1;
-    int b;
-    int l = 1;
     while (a==1) {
         menu();
         printf("Input a number 1-4 to choose a lab");
