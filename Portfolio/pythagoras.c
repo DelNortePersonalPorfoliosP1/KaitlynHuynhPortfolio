@@ -16,6 +16,6 @@ void pythagoras() {
     scanf ("%lf", &yvalue);
     zvalue=(xvalue*xvalue)+(yvalue*yvalue);
     zvalue=sqrt(zvalue);
-    printf("zvalue");
+    printf("zvalue\n");
     printf("%lf\n", zvalue);
 }
