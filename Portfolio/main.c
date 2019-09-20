@@ -7,22 +7,36 @@
 //
 
 #include <stdio.h>
+#include "menu.h"
+#include "pythagoras.h"
 #include "rectangle.h"
+#include "time.h"
 
-int main(int argc, const char * argv[]) {
-    printf("=====================================\n");
-    printf("|   MENU SELECTION PORTFOLIO\n");
-    printf("=====================================\n");
-    printf("| Options:\n");
-    printf("|        1. Run pythagoras\n");
-    printf("|        2. Run rectangle\n");
-    printf("|        3. Run time operator\n");
-    printf("|        4. Run temperature\n");
-    printf("|        5. Run data types\n");
-    printf("|        6. Exit\n");
-    printf("=====================================\n");
-    pythagoras();
-    rectangle();
-    operator();
+
+int main(void) {
+    int lab;
+    int a = 1;
+    int b;
+    int l = 1;
+    while (a==1) {
+        menu();
+        printf("Input a number 1-4 to choose a lab");
+        scanf("%i",&lab);
+        if (lab == 1){
+            pythagoras();
+        }
+        
+        if (lab == 2){
+            rectangle();
+        }
+        
+        if (lab == 3){
+            operator();
+        }
+        
+        if (lab == 4){
+            void exit();
+        }
+    }
     return 0;
 }

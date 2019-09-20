@@ -11,5 +11,5 @@
 
 #include <stdio.h>
 #include <math.h>
-void rectangle();
+void rectangle(void);
 #endif /* rectangle_h */

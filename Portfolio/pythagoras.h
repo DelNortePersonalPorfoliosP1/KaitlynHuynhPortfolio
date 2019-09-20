@@ -11,5 +11,5 @@
 
 #include <stdio.h>
 #include <math.h>
-void pythagoras();
+void pythagoras(void);
 #endif /* pythagoras_h */
