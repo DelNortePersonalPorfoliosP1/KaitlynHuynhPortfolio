@@ -11,6 +11,7 @@
 #include "pythagoras.h"
 #include "rectangle.h"
 #include "time.h"
+#include "temperature.h"
 
 
 int main(void) {
@@ -18,7 +19,7 @@ int main(void) {
     int a = 1;
     while (a==1) {
         menu();
-        printf("Input a number 1-4 to choose a lab");
+        printf("Input a number 1-5 to choose a lab");
         scanf("%i",&lab);
         if (lab == 1){
             pythagoras();
@@ -33,10 +34,14 @@ int main(void) {
         }
         
         if (lab == 4){
-            return 0;
+            temperatures();
             
         }
-        if (lab > 4){
+        if (lab == 5){
+            return 0;
+        }
+        
+        if (lab > 5){
             return 0;
         }
     }

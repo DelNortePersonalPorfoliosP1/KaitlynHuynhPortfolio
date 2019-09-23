@@ -15,6 +15,7 @@ void menu(void) {
     printf("|        1. Run pythagoras\n");
     printf("|        2. Run rectangle\n");
     printf("|        3. Run time operator\n");
-    printf("|        4. Exit\n");
+    printf("|        4. Run temperature\n");
+    printf("|        5. Exit\n");
     printf("=====================================\n");
 }

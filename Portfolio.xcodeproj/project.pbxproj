@@ -12,6 +12,7 @@
 		6D1996CB232FE25000655455 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D1996CA232FE25000655455 /* main.c */; };
 		6D1996D3232FE2B000655455 /* rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D1996D2232FE2B000655455 /* rectangle.c */; };
 		6D2C2E5F233523E400A978EE /* menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C2E5E233523E400A978EE /* menu.c */; };
+		6D2C2E6223352DD300A978EE /* temperature.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C2E6123352DD300A978EE /* temperature.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		6D1996D2232FE2B000655455 /* rectangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rectangle.c; sourceTree = "<group>"; };
 		6D2C2E5D233523E400A978EE /* menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
 		6D2C2E5E233523E400A978EE /* menu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = menu.c; sourceTree = "<group>"; };
+		6D2C2E6023352DD300A978EE /* temperature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperature.h; sourceTree = "<group>"; };
+		6D2C2E6123352DD300A978EE /* temperature.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = temperature.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				6D1996D2232FE2B000655455 /* rectangle.c */,
 				6D150F942333D58C00565985 /* time.h */,
 				6D150F952333D58C00565985 /* time.c */,
+				6D2C2E6023352DD300A978EE /* temperature.h */,
+				6D2C2E6123352DD300A978EE /* temperature.c */,
 			);
 			path = Portfolio;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				6D2C2E5F233523E400A978EE /* menu.c in Sources */,
 				6D0984AA23328AFD0042B6F8 /* pythagoras.c in Sources */,
+				6D2C2E6223352DD300A978EE /* temperature.c in Sources */,
 				6D1996CB232FE25000655455 /* main.c in Sources */,
 				6D150F962333D58C00565985 /* time.c in Sources */,
 				6D1996D3232FE2B000655455 /* rectangle.c in Sources */,
